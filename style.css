@@ -1,0 +1,183 @@
+body {
+  background-image: url('images/woods.jpg');
+  font-family: Arial;
+  color: white;
+}
+.middle{
+  margin: 0 auto;
+  width: 1000px;
+}
+#title{
+width: 400px;
+background: #06799F;
+height:100px;
+float: left;
+}
+#title img{
+  float:left;
+}
+#name{
+  float:left;
+  font-size: 30px;
+  color:white;
+  margin: 20px;
+}
+#sub{
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+}
+#navbar{
+  list-style: none;
+  background: #216278;
+  width: 575px;
+  float:left;
+  height: 100px;
+}
+#navbar ul{
+  padding: 2%;
+}
+#navbar li{
+    display: inline;
+}
+#navbar li a{
+  float: left;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  border-left: 1px solid #fff;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+#navbar li a:hover{
+  background:#a2b3a1;
+  color:#000
+}
+#navbar #link{
+  font:Arial;
+}
+.center{
+  clear:both;
+  text-align: center;
+}
+#quote {
+  clear: both;
+  font-size: 3em;
+}
+.block{
+  width: 62em;
+  color:white;
+  margin: 0 auto;
+}
+#first{
+  float:left;
+  width:30em;
+  margin-right: 10px;
+}
+#second{
+  float:left;
+  width: 30em;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px)
+{
+  .middle{
+    width: 800px;
+    margin: 0 auto;
+  }
+  .block{
+    width: 50em;
+  }
+  #title{
+    width:300px;
+  }
+  #first{
+    width:23em;
+  }
+  #first img{
+    width: 350px;
+    height: 250px;
+  }
+  #second img{
+    width: 350px;
+    height: 250px;
+  }
+  #name{
+    font-size: 24px;
+  }
+  #sub{
+    font-size: 14px;
+  }
+  #second{
+    width: 23em;
+  }
+  #navbar{
+    width: 475px;
+  }
+  #navbar li a{
+    font-size: 16px;
+  }
+
+}
+
+
+@media screen and (max-width: 768px)
+{
+  .middle{
+    width:500px;
+  }
+  #title{
+    clear:both;
+    width: 500px;
+    margin: 0 auto;
+    }
+  #navbar{
+    clear:both;
+    width: 500px;
+    height:75px;
+    margin: 0 auto;
+  }
+  .block{
+    width:23em;
+  }
+  #sub{
+    text-align:left;
+  }
+  #first{
+    width:23em;
+    margin: 5px auto;
+  }
+  #first img{
+    width: 360px;
+    height: 250px;
+  }
+  #second img{
+    width: 360px;
+    height: 250px;
+  }
+  #second{
+    clear:both;
+    width: 23em;
+    margin: 5px auto;
+  }
+  #navbar li a{
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 550px)
+{
+  .middle{
+    width:375px;
+  }
+  #title{
+    width:375px;
+  }
+  #navbar{
+    width: 375px;
+  }
+  #navbar li a{
+    font-size: 13px;
+  }
+}
